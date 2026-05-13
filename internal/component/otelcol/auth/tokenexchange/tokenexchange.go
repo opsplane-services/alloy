@@ -21,7 +21,7 @@ import (
 func init() {
 	component.Register(component.Registration{
 		Name:      "otelcol.auth.tokenexchange",
-		Stability: featuregate.StabilityPublicPreview,
+		Stability: featuregate.StabilityExperimental,
 		Args:      Arguments{},
 		Exports:   auth.Exports{},
 

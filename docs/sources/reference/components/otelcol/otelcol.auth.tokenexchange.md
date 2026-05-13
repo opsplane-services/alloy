@@ -2,7 +2,7 @@
 canonical: https://grafana.com/docs/alloy/latest/reference/components/otelcol/otelcol.auth.tokenexchange/
 description: Learn about otelcol.auth.tokenexchange
 labels:
-  stage: public-preview
+  stage: experimental
   products:
     - oss
 title: otelcol.auth.tokenexchange
@@ -10,7 +10,7 @@ title: otelcol.auth.tokenexchange
 
 # `otelcol.auth.tokenexchange`
 
-{{< docs/shared lookup="stability/public_preview.md" source="alloy" version="<ALLOY_VERSION>" >}}
+{{< docs/shared lookup="stability/experimental.md" source="alloy" version="<ALLOY_VERSION>" >}}
 
 `otelcol.auth.tokenexchange` exposes a `handler` that other `otelcol` components can use to authenticate requests using workload identity federation or managed identity.
 
